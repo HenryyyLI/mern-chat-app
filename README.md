@@ -12,12 +12,15 @@ A full-stack real-time chat platform powered by the MERN stack and WebSocket tec
   Secure authentication system with JSON Web Tokens (JWT), featuring token validation middleware, route protection, and user session persistence across refreshes. Uses cookies over localStorage for better security, and keeps the client state in sync for a seamless, refresh-resistant login experience.
 
 - **⚡ Real-Time Messaging with Socket.io**
+  
   Leverages WebSockets via Socket.io to enable instantaneous message delivery, live typing indicators, online status visibility, and room-based message handling. Enhances user engagement by mimicking real-world chat responsiveness.
-
+  
 - **🎨 Clean & Responsive UI**
+  
   Crafted with Tailwind CSS and DaisyUI, the interface is responsive by design, polished across devices, and consistent in look, feel, and behavior. Visual feedback and hover interactions enhance usability and flow.
-
+  
 - **🌐 Global State Management with Zustand**
+  
   Uses Zustand to manage shared state across components with minimal boilerplate. Keeps the app fast and predictable without the complexity of Redux or heavy context chains, making the codebase easier to maintain and extend.
 
 ## 📁 Project Structure
