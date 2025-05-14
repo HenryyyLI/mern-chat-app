@@ -13,7 +13,7 @@ A full-stack real-time chat platform powered by the MERN stack and WebSocket tec
 
 - **⚡ Real-Time Messaging with Socket.io**
   
-  Leverages WebSockets via Socket.io to enable instantaneous message delivery, live typing indicators, online status visibility, and room-based message handling. Enhances user engagement by mimicking real-world chat responsiveness.
+  Leverages WebSockets via Socket.io for instantaneous message delivery, typing indicators, online status, and room-based handling. Enhances engagement by mimicking real-world chat responsiveness.
   
 - **🎨 Clean & Responsive UI**
   
@@ -21,7 +21,7 @@ A full-stack real-time chat platform powered by the MERN stack and WebSocket tec
   
 - **🌐 Global State Management with Zustand**
   
-  Uses Zustand to manage shared state across components with minimal boilerplate. Keeps the app fast and predictable without the complexity of Redux or heavy context chains, making the codebase easier to maintain and extend.
+  Uses Zustand to manage shared state with minimal boilerplate. Keeps the app fast and predictable without Redux or heavy context, making the codebase easier to maintain and extend.
 
 ## 📁 Project Structure
 
