@@ -45,8 +45,10 @@ mern-chat-app/
 │   │   ├── context/                 # React context for global state
 │   │   ├── hooks/                   # Custom React hooks
 │   │   ├── zustand/                 # Zustand store setup
-│   │   ├── App.js                   # Main app component and routing
-│   │   └── ...                      # Other frontend modules and logic
+│   │   ├── utils/                   # Utility helpers
+│   │   ├── lib/                     # Shared utility functions
+│   │   ├── App.jsx                  # Main app component
+│   │   └── main.jsx                 # App entry point
 │   └── package.json                 # Frontend dependencies and scripts
 │
 ├── .env                             # Environment variables for both client/server
@@ -57,15 +59,11 @@ mern-chat-app/
 ## 🛠 Tech Stack
 
 - **Backend**: `Node.js`, `Express.js`, `MongoDB`, `Mongoose`
-
 - **Frontend**: `React`, `React Router`
 - **UI & Visualization**: `Tailwind CSS`, `Daisy UI`, `react-hot-toast`
-
 - **WebSocket**: `Socket.io` (real-time messaging and online status)
-
 - **State Management**: `Zustand` (global state management)
-
-- **Authentication**: `JWT` (secure session handling)
+- **Authentication**: `JWT` (secure session handling), `bcrypt` (password hashing)
 
 ## 🌐 Deployment
 
